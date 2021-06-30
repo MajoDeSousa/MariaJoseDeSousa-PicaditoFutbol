@@ -1,0 +1,38 @@
+
+
+footer {
+    display: flex; 
+    justify-content: flex-end; 
+    background-color: $violeta-logo;
+
+
+    ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: flex;
+
+    a {
+        display:block;
+        color:#fff;
+        text-decoration:none;
+        font-weight:400;
+        font-size:map-get($fonts, navbar);
+        padding:10px;
+        font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif,;
+        text-transform:uppercase;
+        letter-spacing:1px;
+    }
+    li {
+        
+        &:hover {
+            background-color: $verde-logo
+
+        }
+    }
+
+    }
+
+}
+
+

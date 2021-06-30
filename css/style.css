@@ -1,0 +1,232 @@
+@charset "UTF-8";
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #45d1a6;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+.menu ul ul li {
+  float: none;
+  width: 150px;
+}
+.menu ul ul li:hover {
+  display: block;
+}
+.menu ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+.menu ul li {
+  background-color: #45d1a6;
+  z-index: 1;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.menu ul li:hover ul {
+  display: block;
+}
+.menu ul li:hover {
+  background-color: #c738a3;
+}
+.menu ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Home */
+.fondo-no-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-index {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 95%;
+  z-index: -1;
+}
+
+.main-title {
+  color: white;
+  margin-top: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.titulo {
+  color: grey;
+  margin-top: 5px;
+  font-family: "Staatliches", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.div-container-text {
+  margin-top: 40px;
+}
+
+p {
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 30px;
+}
+
+.button:hover {
+  background-color: #117750;
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.25);
+}
+
+/* Sección Torneo*/
+.title {
+  color: grey;
+  margin-top: 5px;
+  font-family: "Staatliches", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.card-group {
+  margin-top: 20px;
+}
+.card-group .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-group .card-text {
+  font-size: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+/* Sección Entrenamientos */
+.fondo-no-header .titulo {
+  color: grey;
+  margin-top: 5px;
+  font-family: "Staatliches", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+.fondo-no-header .carousel {
+  margin-top: 50px;
+  width: 50%;
+}
+.fondo-no-header .map {
+  margin-top: 50px;
+}
+.fondo-no-header .entrenamiento-text {
+  color: black;
+  font: arial;
+  font-size: 15px;
+}
+
+/* Sección Contacto*/
+.form {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 40px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #c738a3;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+footer ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+footer ul li:hover {
+  background-color: #45d1a6;
+}
+
+@keyframes pelota {
+  0% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  25% {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  50% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.pelota {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  left: 20px;
+  top: 3px;
+  animation-name: pelota;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+/* Sección Torneo*/
+.title {
+  @include titles-pages;
+  
+ }
+
+.card-group  {
+    margin-top: $margin/2;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+    .card-text {
+        font-size: map-get($fonts, cards);
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+      }  
+    }
+  
+.table {
+    margin-top: $margin/2;
+  }
+  
+  
+  
+  

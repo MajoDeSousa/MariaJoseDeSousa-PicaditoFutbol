@@ -1,0 +1,13 @@
+/* Sección Contacto*/
+
+
+
+.form {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: $margin;  
+    font-size: map-get($fonts, cards);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }

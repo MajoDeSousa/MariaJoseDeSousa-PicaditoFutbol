@@ -1,0 +1,59 @@
+/* Home */
+
+.fondo-no-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+    } 
+
+    .video-index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 95%;
+    z-index: -1;
+    }   
+
+    .main-title {
+    @include main-title
+    }
+    
+    .titulo {
+    @include titles-pages
+    }
+    
+    .div-container-text {
+        margin-top: 40px;   
+    }
+
+    p {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: map-get($fonts, paragraph);
+    }
+
+    .button:hover {
+        @include button-style;
+        @if $button-transform==true {
+            transform: scale(1.25);
+            
+        }
+        
+        @else {
+            transform: scale(1);
+      
+
+           
+        } 
+        
+
+}
+
+
+
+  
+
+
+    

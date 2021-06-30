@@ -1,0 +1,16 @@
+@import "../scss/utilities/variables";
+@import "../scss/utilities/mixin";
+@import "../scss/utilities/animation";
+@import "../scss/layout/navbar";
+@import "../scss/layout/home";
+@import "../scss/layout/torneo";
+@import "../scss/layout/entrenamientos";
+@import "../scss/layout/novedades";
+@import "../scss/layout/contacto";
+@import "../scss/layout/body";
+@import "../scss/layout/footer";
+
+
+
+@include animation;
+

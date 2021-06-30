@@ -1,0 +1,29 @@
+/* Sección Entrenamientos */
+
+.fondo-no-header {
+
+    .titulo {
+        @include titles-pages
+    }
+
+
+    .carousel {
+    margin-top: $margin+10px;
+    width: 50%;
+     }
+
+    .map {
+    margin-top: $margin+10px;    
+    }
+  
+    .entrenamiento-text {
+    color: black;
+    font: arial;
+    font-size: map-get($fonts, navbar);   
+    }
+} 
+  
+
+  
+  
+  

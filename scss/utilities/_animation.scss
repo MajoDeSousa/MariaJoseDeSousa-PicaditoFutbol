@@ -1,0 +1,51 @@
+
+@mixin animation {
+    
+
+    @keyframes pelota {
+    0%   {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg)
+    }
+
+    25%  {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+
+    50%  {
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg)
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg)
+    }
+
+    }
+  
+    .pelota {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 20px;
+    top: 3px;
+    animation-name: pelota;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+    
+}

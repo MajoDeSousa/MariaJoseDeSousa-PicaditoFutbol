@@ -1,0 +1,25 @@
+@mixin button-style {
+    
+    background-color: $boton;
+    color: white;
+    text-decoration: underline;    
+          
+}
+
+@mixin titles-pages {
+        color: grey;
+        margin-top: 5px;
+        font-family: 'Staatliches', cursive;
+        font-size: 70px;
+        text-align: center;
+        
+}
+
+@mixin main-title {
+    color: white;
+    margin-top: 5px;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    
+}
