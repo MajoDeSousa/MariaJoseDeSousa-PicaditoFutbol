@@ -188,6 +188,21 @@ footer ul li:hover {
   background-color: #45d1a6;
 }
 
+.page-404 {
+  background-image: url(../images/error-404.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.page-404-contain {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 30px;
+}
+
 @keyframes pelota {
   0% {
     -webkit-transform: rotate(90deg);
