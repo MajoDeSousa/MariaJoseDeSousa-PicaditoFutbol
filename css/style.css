@@ -153,6 +153,14 @@ p {
 }
 
 /* Sección Contacto*/
+.form-contacto {
+  color: white;
+  margin-top: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
 .form {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 40px;

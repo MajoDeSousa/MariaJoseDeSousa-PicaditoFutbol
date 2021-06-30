@@ -1,6 +1,8 @@
 /* Sección Contacto*/
 
-
+.form-contacto {
+@include main-title
+}
 
 .form {
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;

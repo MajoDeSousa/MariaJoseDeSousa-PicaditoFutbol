@@ -55,17 +55,22 @@
     
 <section>
 
-  <p>Formulario de Contacto</p> 
+  <p class="form-contacto">Formulario de Contacto</p> 
   
   <div class="form">
-  <form action="/action_page.php">
-  <label for="fname">Nombre y Apellido</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">E-mail</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-    </form> 
-        
+  <form action="enviar.php" method="POST" name="contact-form">
+  <label for="name">Nombre</label><br>
+  <input type="text" id="name" name="nombre"><br>
+  
+  <label for="mail">Email</label><br>
+  <input type="email" name="email" id="mail"><br>
+  
+  <label for="asunto">Asunto</label><br>
+  <input type="subject" id="asunto" name="asunto"><br>
+  
+  <label for="mensaje">Mensaje</label><br>
+  <input type="mensaje" cols=30 row=10><br>
+</form>      
   </div>
 </section>
 
