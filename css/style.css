@@ -132,23 +132,90 @@ p {
 }
 
 /* Sección Entrenamientos */
-.fondo-no-header .titulo {
+.titulo {
   color: grey;
   margin-top: 5px;
   font-family: "Staatliches", cursive;
   font-size: 70px;
   text-align: center;
 }
-.fondo-no-header .carousel {
-  margin-top: 50px;
+
+.titulo-seccion {
+  color: white;
+  background: #777676;
+  margin: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.texto-secciones {
+  color: #504e4e;
+  margin: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/* Sede Colegiales */
+.titulo {
+  color: grey;
+  margin-top: 5px;
+  font-family: "Staatliches", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.map {
   width: 50%;
+  margin-bottom: 40px;
 }
-.fondo-no-header .map {
-  margin-top: 50px;
+
+.titulo-seccion {
+  color: white;
+  background: #777676;
+  margin: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
 }
-.fondo-no-header .entrenamiento-text {
-  color: black;
-  font: arial;
+
+.texto-secciones {
+  color: #504e4e;
+  margin: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/* Sede Belgrano */
+.titulo {
+  color: grey;
+  margin-top: 5px;
+  font-family: "Staatliches", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.map {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.titulo-seccion {
+  color: white;
+  background: #777676;
+  margin: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.texto-secciones {
+  color: #504e4e;
+  margin: 40px;
+  font-family: sans-serif;
   font-size: 15px;
 }
 

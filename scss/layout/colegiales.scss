@@ -1,20 +1,20 @@
-/* Sección Entrenamientos */
-
+/* Sede Colegiales */
 
     .titulo {
         @include titles-pages
     }
-    
-    
-     .titulo-seccion {
+
+    .map {
+    width: 50%;
+    margin-bottom: $margin;
+    }
+     
+    .titulo-seccion {
         @include titulo-seccion
     }
 
     .texto-secciones {
         @include texto-secciones
     }
-  
 
-  
-  
   

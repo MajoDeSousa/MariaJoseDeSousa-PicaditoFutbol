@@ -23,3 +23,22 @@
     text-align: center;
     
 }
+
+@mixin titulo-seccion {
+    color:white;
+    background:rgb(119, 118, 118);
+    margin: $margin;
+    text-transform: uppercase;   
+    font-family:sans-serif;
+    font-size: map-get($fonts, forms);  
+    text-align: left;
+    
+}
+
+
+@mixin texto-secciones {
+    color: rgb(80, 78, 78);
+    margin: $margin;
+    font-family:sans-serif;
+    font-size: map-get($fonts, navbar);   
+    }

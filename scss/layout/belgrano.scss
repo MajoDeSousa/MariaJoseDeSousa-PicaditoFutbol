@@ -1,0 +1,19 @@
+/* Sede Belgrano */
+
+.titulo {
+    @include titles-pages
+}
+
+.map {
+width: 50%;
+margin-bottom: $margin;
+}
+ 
+.titulo-seccion {
+    @include titulo-seccion
+}
+
+.texto-secciones {
+    @include texto-secciones
+}
+
