@@ -42,3 +42,26 @@
     font-family:sans-serif;
     font-size: map-get($fonts, navbar);   
     }
+
+@mixin circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+@mixin circle-purple {
+    background-color: $violeta-logo;    
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    }
+
+@mixin circle-green {
+    background-color: $verde-logo;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    }
+ 

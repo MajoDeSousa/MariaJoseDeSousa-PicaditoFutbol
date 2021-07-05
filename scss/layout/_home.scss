@@ -1,3 +1,37 @@
+/* Mobile styles */
+@media only screen and (max-width: 400px) { 
+    
+    body {
+        width: 100%;
+        }
+    p {
+            color: black;
+            }
+        }
+        
+    /* Tablet styles */
+    @media only screen and (min-width: 410px) and (max-width:960px) {
+    
+    body {
+    width: 100%;
+    }
+    p {
+        color: black;
+        }
+    }
+    
+    /* Desktop styles */
+    @media only screen and (min-width: 961px) {
+    
+    body {
+      width: 100%;      
+    }
+    p {
+        color: black;
+        }
+    }
+
+
 /* Home */
 
 .fondo-no-header {

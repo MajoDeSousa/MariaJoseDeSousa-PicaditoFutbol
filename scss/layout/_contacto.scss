@@ -13,6 +13,17 @@
     @include titles-pages
 }
 
+.circles {
+    @include circles
+}
+
+.circle-purple {
+    @include circle-purple
+}
+.circle-green {
+    @include circle-green
+}
+
 .form {
     color: white;
     font-family: sans-serif;

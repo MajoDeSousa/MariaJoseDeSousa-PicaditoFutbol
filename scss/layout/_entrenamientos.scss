@@ -1,12 +1,11 @@
 /* Sección Entrenamientos */
 
-
     .titulo {
         @include titles-pages
     }
     
-    
-     .titulo-seccion {
+
+    .titulo-seccion {
         @include titulo-seccion
     }
 
@@ -14,6 +13,17 @@
         @include texto-secciones
     }
     
+    .circles {
+        @include circles
+    }
+
+    .circle-purple {
+        @include circle-purple
+    }
+    .circle-green {
+        @include circle-green
+    }
+
     .carousel {
     width: 90%;
     margin-bottom: 35px;

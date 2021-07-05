@@ -1,9 +1,8 @@
-/* Sede Colegiales */
 
     .titulo {
         @include titles-pages
     }
-
+    
     .circles {
         @include circles
     }
@@ -14,18 +13,8 @@
     .circle-green {
         @include circle-green
     }
-    
-    .map {
-    width: 50%;
-    margin-bottom: $margin;
-    }
-     
+
     .titulo-seccion {
         @include titulo-seccion
     }
 
-    .texto-secciones {
-        @include texto-secciones
-    }
-
-  
