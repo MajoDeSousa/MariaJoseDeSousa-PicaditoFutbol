@@ -157,6 +157,25 @@ p {
   font-size: 15px;
 }
 
+.carousel {
+  width: 90%;
+  margin-bottom: 35px;
+}
+
+.texto-secciones-2 {
+  color: white;
+  background-color: #45d1a6;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.texto-secciones-3 {
+  color: white;
+  background-color: #c738a3;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
 /* Sede Colegiales */
 .titulo {
   color: grey;
@@ -220,16 +239,25 @@ p {
 }
 
 /* Sección Contacto*/
-.form-contacto {
-  color: white;
+.fondo-contacto {
+  background-image: url(../images/fondo-contacto.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  opacity: 0.8;
+}
+.fondo-contacto .titulo {
+  color: grey;
   margin-top: 5px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 25px;
+  font-family: "Staatliches", cursive;
+  font-size: 70px;
   text-align: center;
 }
-
-.form {
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.fondo-contacto .form {
+  color: white;
+  font-family: sans-serif;
   margin-bottom: 40px;
   font-size: 10px;
   display: flex;

@@ -53,27 +53,53 @@
     </nav>
         </header>
     
-<section>
+
+<section class="fondo-contacto">
   <h2 class="titulo">Formulario de contacto</h2>
-  <p class="form-contacto">Formulario de Contacto</p> 
-  
   <div class="form">
-  <form action="enviar.php" method="POST" name="contact-form">
-  <label for="name">Nombre</label><br>
-  <input type="text" id="name" name="nombre"><br>
-  
-  <label for="mail">Email</label><br>
-  <input type="email" name="email" id="mail"><br>
-  
-  <label for="asunto">Asunto</label><br>
-  <input type="subject" id="asunto" name="asunto"><br>
-  
-  <label for="mensaje">Mensaje</label><br>
-  <input type="mensaje" cols=30 row=10><br>
-</form>      
+    <form action="enviar.php" method="POST" name="contact-form">
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Nombre</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" name="nombre" placeholder="Tu nombre..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="mail">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Tu Email..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="asunto">Asunto</label>
+        </div>
+        <div class="col-75">
+          <select id="asunto" name="asunto">
+            <option value="torneo">Anotarme en Torneo</option>
+            <option value="entrenamiento-colegiales">Entrenamiento sede Colegiales</option>
+            <option value="entrenamiento-belgrano">Entrenamiento sede Belgrano</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Mensaje</label>
+        </div>
+        <div class="col-75">
+          <textarea id="mensaje" name="mensaje" placeholder="Dejanos tu mensaje.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
   </div>
 </section>
-
   <footer>
     <ul>
         <li><a href="https://instagram.com/picadito_ok" target="_blank">Instagram</a></li>        

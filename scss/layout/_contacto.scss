@@ -1,11 +1,21 @@
 /* Sección Contacto*/
 
-.form-contacto {
-@include main-title
+.fondo-contacto {
+    background-image: url(../images/fondo-contacto.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden; 
+    opacity: 0.8;
+
+.titulo {
+    @include titles-pages
 }
 
 .form {
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-family: sans-serif;
     margin-bottom: $margin;  
     font-size: map-get($fonts, cards);
     display: flex;
@@ -13,3 +23,5 @@
     align-items: center;
     
     }
+
+}
