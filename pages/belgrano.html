@@ -19,6 +19,7 @@
     <!--Fonts-->   
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b30819f770.js" crossorigin="anonymous"></script>
 
 <!--Bootstrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -33,30 +34,51 @@
     <img class="pelota" src="../images/pelota.png" alt="pelota de fútbol" loading= "lazy">
 
 
-<!--NAVbar-->
-    <nav class="menu">
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li>
-          <a href="torneo.html">Torneo</a>
-          <ul>
-            <li><a href="ranking.html">Ranking</a></li>
+      <!--NAVbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="torneo.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Competencia</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="torneo.html">Torneo</a></li>
+                <li><a class="dropdown-item" href="ranking.html">Ranking</a></li>
+              </ul>
+            </li>
 
-          </ul>
-        </li>
-        <li>
-          <a href="entrenamientos.html">Entrenamientos</a>
-          <ul>
-            <li><a href="colegiales.html">Sede Colegiales</a></li>
-            <li><a href="belgrano.html">Sede Belgrano</a></li>
-          </ul>
-        </li>
-        <li><a href="novedades.html">Novedades</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="entrenamientos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Entrenamientos</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="entrenamientos.html">Tipo de Entrenamiento</a></li>
+              <li><a class="dropdown-item" href="colegiales.html">Sede Colegiales</a></li>
+              <li><a class="dropdown-item" href="belgrano.html">Sede Belgrano</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="novedades.html">Novedades</a>
+          </li>
 
-<!--NAVbar-->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+        </li>
+         
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Fin NAVbar-->
 
  </header>
 
@@ -64,21 +86,21 @@
  <h2 class="titulo">Sede Belgrano</h2>
 
  <div class="row">
-  <div class="col-5"></div>
-  <div class="col-2">
+  <div class="col-md-5"></div>
+  <div class="col-md-2">
   <div class="circles">
   <div class="circle-purple"></div>
   <div class="circle-green"></div>
   </div>
   </div>
-  <div class="col-5"></div>
+  <div class="col-md-5"></div>
   </div>
 
 <!--Título Sección-->
  <h3 class="titulo-seccion">Polideportivo Cramer</h3>
 
 <div class="row">
-<div class="col-4">
+<div class="col-md-4">
 <ul class="texto-secciones">
  <li>Martes de 19hs a 22hs</li>
  <li>Av. Crámer 3249, CABA</li>
@@ -88,20 +110,36 @@
 </div>
 
  <!--Mapa-->
-<iframe class="map col-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.956231325004!2d-58.471883685054046!3d-34.554663562410624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb68498961e29%3A0x1e71d5172fcb6eea!2sEl%20Poli!5e0!3m2!1ses!2sar!4v1625461182653!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe class="map col-md-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.956231325004!2d-58.471883685054046!3d-34.554663562410624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb68498961e29%3A0x1e71d5172fcb6eea!2sEl%20Poli!5e0!3m2!1ses!2sar!4v1625461182653!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
+
 <!--Footer-->
-  <footer>
-    <ul>
-        <li><a href="https://instagram.com/picadito_ok" target="_blank">Instagram</a></li>        
-        <li><a href="https://facebook.com/picadito_ok" target="_blank">Facebook</a></li>        
-        <li><a href="protocolocovid.html">Protocolos COVID-19</a></li>
-        <li><a href="reglamento.html">Reglamento</a></li>
-    </ul>     
-  </footer>
+<footer>
+<div class="container-footer">
+
+<div class="box-footer">
+<h6>Reglamentos</h6>
+<a href="pages/reglamento.html">Ver Reglamento</a>  
+</div>
+
+<div class="box-footer">
+  <h6>Protocolos</h6>
+  <a href="pages/protocolocovid.html">Ver Protocolo Covid-19</a>  
+</div>
+
+<div class="box-footer">
+  <h6>Redes Sociales</h6>
+  <a href="https://facebook.com/picadito_ok" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+  <a href="https://instagram.com/picadito_ok" target="_blank"><i class="fab fa-instagram"></i></i>Instagram</a>  
+</div>
+
+</div>
+</footer>
+
+<!-- Fin del Footer-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-<!--Footer-->
+
 </body>
 </html>

@@ -19,6 +19,7 @@
 <!--Fonts-->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b30819f770.js" crossorigin="anonymous"></script>
 
 <!--CSS-->
 <link rel="stylesheet" href="../css/style.css">
@@ -30,29 +31,51 @@
     <img src="../images/logopicadito.jpg" alt="logo picadito fútbol femenino" loading= "lazy">
     <img class="pelota" src="../images/pelota.png" alt="pelota de fútbol" loading= "lazy">
 
-<!--NavBar-->
-    <nav class="menu">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li>
-            <a href="torneo.html">Torneo</a>
-            <ul>
-              <li><a href="ranking.html">Ranking</a></li>
-  
+      <!--NAVbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="torneo.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Competencia</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="torneo.html">Torneo</a></li>
+                <li><a class="dropdown-item" href="ranking.html">Ranking</a></li>
+              </ul>
+            </li>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="entrenamientos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Entrenamientos</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="entrenamientos.html">Tipo de Entrenamiento</a></li>
+              <li><a class="dropdown-item" href="colegiales.html">Sede Colegiales</a></li>
+              <li><a class="dropdown-item" href="belgrano.html">Sede Belgrano</a></li>
             </ul>
           </li>
-          <li>
-            <a href="entrenamientos.html">Entrenamientos</a>
-            <ul>
-              <li><a href="colegiales.html">Sede Colegiales</a></li>
-              <li><a href="belgrano.html">Sede Belgrano</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="novedades.html">Novedades</a>
           </li>
-          <li><a href="novedades.html">Novedades</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+        </li>
+         
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
       </nav>
-<!--Fin NavBar-->
+      <!--Fin NAVbar-->
 </header>
 
 <!--Título-->
@@ -60,14 +83,14 @@
 
 <!--Circulos-->
 <div class="row">
-  <div class="col-5"></div>
-<div class="col-2">
+  <div class="col-md-5"></div>
+<div class="col-md-2">
   <div class="circles">
     <div class="circle-purple"></div>
     <div class="circle-green"></div>
   </div>
 </div>
-  <div class="col-5"></div>
+  <div class="col-md-5"></div>
 </div>
 
 <!--Título Sección-->
@@ -125,15 +148,27 @@
 </ol>
 
 <!--Footer-->
-  <footer>
-    <ul>
-        <li><a href="https://instagram.com/picadito_ok" target="_blank">Instagram</a></li>        
-        <li><a href="https://facebook.com/picadito_ok" target="_blank">Facebook</a></li>        
-        <li><a href="protocolocovid.html">Protocolos COVID-19</a></li>
-        <li><a href="reglamento.html">Reglamento</a></li>
-    </ul>     
-  </footer>
-<!--Fin Footer-->
+<footer>
+<div class="container-footer">
+
+<div class="box-footer">
+<h6>Reglamentos</h6>
+<a href="pages/reglamento.html">Ver Reglamento</a>  
+</div>
+
+<div class="box-footer">
+  <h6>Protocolos</h6>
+  <a href="pages/protocolocovid.html">Ver Protocolo Covid-19</a>  
+</div>
+
+<div class="box-footer">
+  <h6>Redes Sociales</h6>
+  <a href="https://facebook.com/picadito_ok" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+  <a href="https://instagram.com/picadito_ok" target="_blank"><i class="fab fa-instagram"></i></i>Instagram</a>  
+</div>
+</div>
+</footer>
+<!-- Fin del Footer-->
 
 </body>
 </html>

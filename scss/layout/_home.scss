@@ -1,45 +1,12 @@
-/* Mobile styles */
-@media only screen and (max-width: 400px) { 
-    
-    body {
-        width: 100%;
-        }
-    p {
-            color: black;
-            }
-        }
-        
-    /* Tablet styles */
-    @media only screen and (min-width: 410px) and (max-width:960px) {
-    
-    body {
-    width: 100%;
-    }
-    p {
-        color: black;
-        }
-    }
-    
-    /* Desktop styles */
-    @media only screen and (min-width: 961px) {
-    
-    body {
-      width: 100%;      
-    }
-    p {
-        color: black;
-        }
-    }
 
 
 /* Home */
 
 .fondo-no-header {
     position: relative;
-    width: 100%;
-    height: 100vh;
+    width: 100%;    
     overflow: hidden; 
-    } 
+   
 
     .video-index {
     position: absolute;
@@ -50,42 +17,49 @@
     z-index: -1;
     }   
 
-    .main-title {
-    @include main-title
-    }
-    
-    .titulo {
-    @include titles-pages
-    }
-    
-    .div-container-text {
-        margin-top: 40px;   
-    }
+    .home-container {
+        width: 100%;
 
-    p {
-    color: white;
-    font-family: 'Staatliches', cursive;
-    font-size: map-get($fonts, paragraph);
-    }
+    
+        .main-title {
+        @include main-title
+        }
+    
+        .titulo {
+         @include titles-pages
+         }
+    
+        .div-container-text {
+        margin-top: 40px;
+        margin-bottom: 10px;     
+        }
 
-    .button:hover {
-        @include button-style;
+        .p-home {
+        color:$boton;        
+        font-family: 'Staatliches', cursive;
+        font-size: map-get($fonts, paragraph);
+        margin-left: 10px;
+        margin-bottom: 2px;
+        margin-top: 15px;           
+        }
+
+        .button {
+        margin-left: 10px;   
+        }
+
+        .button:hover {
+        @include button-style;        
         @if $button-transform==true {
-            transform: scale(1.25);
-            
+            transform: scale(1.25);          
         }
         
         @else {
-            transform: scale(1);
-      
-
-           
+            transform: scale(1);     
         } 
-        
+        }
+    }
 
-}
-
-
+} 
 
   
 

@@ -1,38 +1,51 @@
 
 
-footer {
-    display: flex; 
-    justify-content: flex-end; 
-    background-color: $violeta-logo;
+footer {   
+    
+    background-color:darkgrey;
+    width: 100%;
 
-
-    ul {
-    list-style:none;
-    margin:0;
-    padding:0;
+.container-footer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: auto;
+    
+}
 
-    a {
-        display:block;
-        color:#fff;
-        text-decoration:none;
-        font-weight:400;
-        font-size:map-get($fonts, navbar);
-        padding:10px;
-        font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif,;
-        text-transform:uppercase;
-        letter-spacing:1px;
-    }
-    li {
-        
-        &:hover {
-            background-color: $verde-logo
+.box-footer {
+display: flex;
+flex-direction: column;
+padding: 20px;
 
-        }
-    }
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    color: #343434;
+    font-weight: 700;
 
-    }
+}
+
+a {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #7a7a7a;
+    font-weight: 600;
+
+&:hover {
+    opacity: 0.8;
+}
+
+.fab {
+ font-size: 20px;   
+}
+}
 
 }
 
 
+    
+
+
+}

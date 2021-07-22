@@ -3,11 +3,56 @@
   .video-index {
     display: none;
   }
-
-  .p-home {
-    color: black;
-  }
 }
+/*MediaQ
+Mobile styles
+@media only screen and (max-width: 400px) { 
+
+    body {
+        width: 100%;
+    }
+
+    .main-title {
+        color: black;
+    }
+
+    .titulo {
+        color: black;
+    }
+}
+
+Tablet styles
+    @media only screen and (min-width: 410px) and (max-width:960px) {
+
+    body {
+    width: 100%;
+    }
+
+    .main-title {
+        color: black;
+    }
+
+    .titulo {
+         color: black;
+    }
+}
+
+Desktop styles
+    @media only screen and (min-width: 961px) {
+
+    body {
+      width: 100%;      
+    }
+
+    .main-title {
+        color: black;
+    }
+
+    .titulo {
+         color: black;
+    }
+}
+*/
 .menu {
   background-color: #45d1a6;
 }
@@ -28,9 +73,11 @@
 .fondo-no-header {
   position: relative;
   width: 100%;
+  height: 100vh;
   overflow: hidden;
 }
-.fondo-no-header .video-index {
+
+.video-index {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,39 +85,34 @@
   opacity: 95%;
   z-index: -1;
 }
-.fondo-no-header .home-container {
-  width: 100%;
-}
-.fondo-no-header .home-container .main-title {
+
+.main-title {
   color: white;
   margin-top: 5px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 25px;
   text-align: center;
 }
-.fondo-no-header .home-container .titulo {
+
+.titulo {
   color: grey;
   margin-top: 5px;
   font-family: "Staatliches", cursive;
   font-size: 70px;
   text-align: center;
 }
-.fondo-no-header .home-container .div-container-text {
+
+.div-container-text {
   margin-top: 40px;
-  margin-bottom: 10px;
 }
-.fondo-no-header .home-container .p-home {
-  color: #117750;
+
+p {
+  color: white;
   font-family: "Staatliches", cursive;
   font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 2px;
-  margin-top: 15px;
 }
-.fondo-no-header .home-container .button {
-  margin-left: 10px;
-}
-.fondo-no-header .home-container .button:hover {
+
+.button:hover {
   background-color: #117750;
   color: white;
   text-decoration: underline;
@@ -176,9 +218,8 @@
 }
 
 .carousel {
-  width: 100%;
+  width: 90%;
   margin-bottom: 35px;
-  margin-left: 10px;
 }
 
 .texto-secciones-2 {
@@ -500,4 +541,4 @@ footer .box-footer a .fab {
   animation-iteration-count: infinite;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.com.map */

@@ -1,66 +1,20 @@
 .menu {
-    display: flex; 
-    justify-content: flex-end;
     background-color: $verde-logo;
-   
     
-    ul {
-        list-style:none;
-        margin:0;
-        padding:0;
-        
-        
-        ul {
-            display:none;
-            position:absolute;
-            top:100%;
-            left:0;
-            padding:0;     
-                
-            li {
-                float:none;
-                width:150px;
-                &:hover {
-                    display: block;
-                }
-    
-            }
 
-            a {
-                line-height:120%;
-                padding:10px 15px;
-
-            }
-        }
-        
-        
-        li{
-            background-color: $verde-logo;
-            z-index: 1; 
-            position:relative;
-            float:left;
-            margin:0;
-            padding:0;
-            &:hover ul {
-                display: block;
-            }
+    ul{
+        background-color: $verde-logo;
+      
+        a {
+           
+            color:#fff;     
+            font-size: map-get($fonts, navbar);           
+            font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;            
+            text-transform:uppercase;           
             &:hover {
                 background-color: $violeta-logo;
-                }
-                  
+                }     
         }
-
-        
-        a {
-            display:block;
-            color:#fff;
-            text-decoration:none;
-            font-weight:400;
-            font-size: map-get($fonts, navbar);
-            padding:10px;
-            font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;            
-            text-transform:uppercase;
-            letter-spacing:1px; 
-        }
-    }
+    
+}
 }
