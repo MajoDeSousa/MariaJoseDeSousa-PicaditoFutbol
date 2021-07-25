@@ -31,7 +31,7 @@
 </head>
 <body>
   <header>
-    <img src="../images/logopicadito.jpg" alt="logo picadito fútbol femenino" loading= "lazy">
+    <a href="../index.html"><img src="../images/logopicadito.jpg" alt="logo picadito futbol femenino" loading= "lazy"></a>
     <img class="pelota" src="../images/pelota.png" alt="pelota de fútbol" loading= "lazy">
 
  <!--NAVbar-->
@@ -87,59 +87,52 @@
 <!--Título-->
   <h2 class="titulo">Formulario de contacto</h2>
 
-<!--Form-->
+<!--Circulos-->
 
-  <div class="row">
+<div class="row">
     <div class="col-md-5"></div>
-  <div class="col-md-2">
+    <div class="col-md-2">
     <div class="circles">
       <div class="circle-purple"></div>
       <div class="circle-green"></div>
     </div>
-  </div>
+    </div>
     <div class="col-md-5"></div>
-  </div>
-  
+</div>
+
+<!--Form-->
+
   <div class="form">
     <form action="enviar.php" method="POST" name="contact-form">
       <div class="row">
-        <div class="col-md-25">
-          <label for="name">Nombre</label>
+
+        <div class="col-md-6">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu nombre..">
+        </div> 
+
+        <div class="col-md-6">
+          <label for="mail" class="form-label">Email</label>
+          <input type="text" class="form-control" id="mail" placeholder="Tu Email..">
         </div>
-        <div class="col-md-75">
-          <input type="text" id="name" name="nombre" placeholder="Tu nombre..">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-25">
-          <label for="mail">Email</label>
-        </div>
-        <div class="col-md-75">
-          <input type="email" id="email" name="email" placeholder="Tu Email..">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-25">
-          <label for="asunto">Asunto</label>
-        </div>
-        <div class="col-md-75">
-          <select id="asunto" name="asunto">
-            <option value="torneo">Anotarme en Torneo</option>
-            <option value="entrenamiento-colegiales">Entrenamiento sede Colegiales</option>
-            <option value="entrenamiento-belgrano">Entrenamiento sede Belgrano</option>
+
+        <div class="col-md-12">
+          <label for="asunto" class="form-label">Asunto</label>
+          <select id="asunto" class="form-select">
+            <option selected>Tipo de consulta...</option>
+            <option>Anotarme en Torneo</option>
+            <option>Entrenamiento sede Colegiales</option>
+            <option>Entrenamiento sede Belgrano</option>
           </select>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-25">
-          <label for="subject">Mensaje</label>
+
+        <div class="col-md-12">
+          <label for="mensaje" class="form-label">Dejanos tu mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3"></textarea>
         </div>
-        <div class="col-md-75">
-          <textarea id="mensaje" name="mensaje" placeholder="Dejanos tu mensaje.." style="height:200px"></textarea>
-        </div>
+        
       </div>
-      <div class="row">
-        <input type="submit" value="Submit">
+      <input type="submit" value="Submit">
       </div>
     </form>
   </div>
@@ -151,12 +144,12 @@
 
 <div class="box-footer">
 <h6>Reglamentos</h6>
-<a href="pages/reglamento.html">Ver Reglamento</a>  
+<a href="reglamento.html">Ver Reglamento</a>  
 </div>
 
 <div class="box-footer">
   <h6>Protocolos</h6>
-  <a href="pages/protocolocovid.html">Ver Protocolo Covid-19</a>  
+  <a href="protocolocovid.html">Ver Protocolo Covid-19</a>  
 </div>
 
 <div class="box-footer">

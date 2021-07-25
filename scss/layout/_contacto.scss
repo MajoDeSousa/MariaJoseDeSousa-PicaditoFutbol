@@ -28,7 +28,7 @@
     color: white;
     font-family: sans-serif;
     margin-bottom: $margin;  
-    font-size: map-get($fonts, cards);
+    font-size: map-get($fonts, navbar);
     display: flex;
     justify-content: center;
     align-items: center;

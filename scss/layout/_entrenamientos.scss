@@ -26,27 +26,48 @@
 
     .carousel {
     width: 100%;
-    margin-bottom: 35px;
-    margin-left: 10px;
+    margin-bottom: 3.5rem;
+    margin-left: map-get($fonts, cards);
     
     }
 
-    .texto-secciones-2 {
-    color: white;
-    background-color: $verde-logo;
-    font-family:sans-serif;
-    font-size: 10px;
+.texto-secciones-2 {
+    ul {
+        color: white;
+        background-color: $verde-logo;
+        font-family:sans-serif;
+        font-size: 1.02rem;
+            
+        li {
+            color: white;
+            background-color: $verde-logo;
+            font-family:sans-serif;
+            font-size: 1.02rem;
+        }    
+        }
+  
     
-    
-    }
+}
 
-    .texto-secciones-3 {
+.texto-secciones-3 {
+    
+    ul {
         color: white;
         background-color: $violeta-logo;
         font-family:sans-serif;
-        font-size: 10px;
+        font-size: 1.02rem;
         
-        
+        li {
+            color: white;
+            background-color: $violeta-logo;
+            font-family:sans-serif;
+            font-size: 1.02rem;
+            }
+
+
         }
+           
+        
+}
 
  

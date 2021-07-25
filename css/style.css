@@ -1,4 +1,10 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62, 5%;
+}
+
 @media (max-width: 768px) {
   .video-index {
     display: none;
@@ -16,7 +22,7 @@
 }
 .menu ul a {
   color: #fff;
-  font-size: 15px;
+  font-size: 1rem;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
@@ -43,32 +49,32 @@
 }
 .fondo-no-header .home-container .main-title {
   color: white;
-  margin-top: 5px;
+  margin-top: 1.5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   text-align: center;
 }
 .fondo-no-header .home-container .titulo {
   color: grey;
-  margin-top: 5px;
+  margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 70px;
+  font-size: 6rem;
   text-align: center;
 }
 .fondo-no-header .home-container .div-container-text {
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
 }
 .fondo-no-header .home-container .p-home {
   color: #117750;
   font-family: "Staatliches", cursive;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 2px;
-  margin-top: 15px;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 .fondo-no-header .home-container .button {
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 .fondo-no-header .home-container .button:hover {
   background-color: #117750;
@@ -80,9 +86,9 @@
 /* Sección Torneo*/
 .title {
   color: grey;
-  margin-top: 5px;
+  margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 70px;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -95,21 +101,21 @@
 .circle-purple {
   background-color: #c738a3;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .circle-green {
   background-color: #45d1a6;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .card-group {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 .card-group .card-body {
   display: flex;
@@ -118,39 +124,39 @@
   align-items: center;
 }
 .card-group .card-text {
-  font-size: 10px;
+  font-size: 1rem;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .table {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 /* Sección Entrenamientos */
 .titulo {
   color: grey;
-  margin-top: 5px;
+  margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 70px;
+  font-size: 6rem;
   text-align: center;
 }
 
 .titulo-seccion {
   color: white;
   background: #777676;
-  margin: 40px;
+  margin: 4rem;
   text-transform: uppercase;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: left;
 }
 
 .texto-secciones {
   color: #504e4e;
-  margin: 40px;
+  margin: 4rem;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .circles {
@@ -162,45 +168,57 @@
 .circle-purple {
   background-color: #c738a3;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .circle-green {
   background-color: #45d1a6;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .carousel {
   width: 100%;
-  margin-bottom: 35px;
-  margin-left: 10px;
+  margin-bottom: 3.5rem;
+  margin-left: 1rem;
 }
 
-.texto-secciones-2 {
+.texto-secciones-2 ul {
   color: white;
   background-color: #45d1a6;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 1.02rem;
+}
+.texto-secciones-2 ul li {
+  color: white;
+  background-color: #45d1a6;
+  font-family: sans-serif;
+  font-size: 1.02rem;
 }
 
-.texto-secciones-3 {
+.texto-secciones-3 ul {
   color: white;
   background-color: #c738a3;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 1.02rem;
+}
+.texto-secciones-3 ul li {
+  color: white;
+  background-color: #c738a3;
+  font-family: sans-serif;
+  font-size: 1.02rem;
 }
 
 /* Sede Colegiales */
 .titulo {
   color: grey;
-  margin-top: 5px;
+  margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 70px;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -213,47 +231,47 @@
 .circle-purple {
   background-color: #c738a3;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .circle-green {
   background-color: #45d1a6;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .map {
   width: 50%;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .titulo-seccion {
   color: white;
   background: #777676;
-  margin: 40px;
+  margin: 4rem;
   text-transform: uppercase;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: left;
 }
 
 .texto-secciones {
   color: #504e4e;
-  margin: 40px;
+  margin: 4rem;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 /* Sede Belgrano */
 .titulo {
   color: grey;
-  margin-top: 5px;
+  margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 70px;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -266,39 +284,39 @@
 .circle-purple {
   background-color: #c738a3;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .circle-green {
   background-color: #45d1a6;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .map {
   width: 50%;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .titulo-seccion {
   color: white;
   background: #777676;
-  margin: 40px;
+  margin: 4rem;
   text-transform: uppercase;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: left;
 }
 
 .texto-secciones {
   color: #504e4e;
-  margin: 40px;
+  margin: 4rem;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .circles {
@@ -310,17 +328,17 @@
 .circle-purple {
   background-color: #c738a3;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .circle-green {
   background-color: #45d1a6;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 /* Sección Contacto*/
@@ -335,9 +353,9 @@
 }
 .fondo-contacto .titulo {
   color: grey;
-  margin-top: 5px;
+  margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 70px;
+  font-size: 6rem;
   text-align: center;
 }
 .fondo-contacto .circles {
@@ -348,27 +366,28 @@
 .fondo-contacto .circle-purple {
   background-color: #c738a3;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 .fondo-contacto .circle-green {
   background-color: #45d1a6;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 .fondo-contacto .form {
   color: white;
   font-family: sans-serif;
-  margin-bottom: 40px;
-  font-size: 10px;
+  margin-bottom: 4rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/*Footer*/
 footer {
   background-color: darkgrey;
   width: 100%;
@@ -377,23 +396,23 @@ footer .container-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 700px;
+  max-width: 70rem;
   margin: auto;
 }
 footer .box-footer {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0.8rem;
 }
 footer .box-footer h6 {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 2px;
+  font-family: "Staatliches", cursive;
+  margin-bottom: 0.1rem;
   color: #343434;
   font-weight: 700;
 }
 footer .box-footer a {
-  margin-top: 5px;
-  font-size: 14px;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
   color: #7a7a7a;
   font-weight: 600;
 }
@@ -401,14 +420,14 @@ footer .box-footer a:hover {
   opacity: 0.8;
 }
 footer .box-footer a .fab {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .titulo {
   color: grey;
-  margin-top: 5px;
+  margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 70px;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -421,26 +440,26 @@ footer .box-footer a .fab {
 .circle-purple {
   background-color: #c738a3;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .circle-green {
   background-color: #45d1a6;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  margin: 2px;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0.2rem;
 }
 
 .titulo-seccion {
   color: white;
   background: #777676;
-  margin: 40px;
+  margin: 4rem;
   text-transform: uppercase;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: left;
 }
 
@@ -452,11 +471,10 @@ footer .box-footer a .fab {
 }
 
 .page-404-contain {
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 2rem;
+  margin-left: 2rem;
   color: white;
   font-family: "Staatliches", cursive;
-  font-size: 30px;
 }
 
 @keyframes pelota {
@@ -490,11 +508,11 @@ footer .box-footer a .fab {
   }
 }
 .pelota {
-  width: 65px;
-  height: 65px;
+  width: 4.2rem;
+  height: 4.2rem;
   position: relative;
-  left: 20px;
-  top: 3px;
+  left: 2rem;
+  top: 0.2rem;
   animation-name: pelota;
   animation-duration: 5s;
   animation-iteration-count: infinite;

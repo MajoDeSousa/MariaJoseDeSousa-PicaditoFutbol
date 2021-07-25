@@ -1,15 +1,16 @@
 
+/*Footer*/
 
 footer {   
     
-    background-color:darkgrey;
+    background-color: darkgrey;
     width: 100%;
 
 .container-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 700px;
+    max-width: 70rem;
     margin: auto;
     
 }
@@ -17,19 +18,19 @@ footer {
 .box-footer {
 display: flex;
 flex-direction: column;
-padding: 20px;
+padding: 0.8rem;
 
 h6 {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 2px;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 0.1rem;
     color: #343434;
     font-weight: 700;
 
 }
 
 a {
-    margin-top: 5px;
-    font-size: 14px;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
     color: #7a7a7a;
     font-weight: 600;
 
@@ -38,14 +39,10 @@ a {
 }
 
 .fab {
- font-size: 20px;   
+ font-size: map-get($fonts, forms);  
 }
 }
 
 }
-
-
-    
-
 
 }

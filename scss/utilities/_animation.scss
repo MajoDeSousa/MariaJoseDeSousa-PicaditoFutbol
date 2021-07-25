@@ -38,11 +38,11 @@
     }
   
     .pelota {
-    width: 65px;
-    height: 65px;
+    width: 4.2rem;
+    height: 4.2rem;
     position: relative;
-    left: 20px;
-    top: 3px;
+    left: map-get($fonts, forms);
+    top: 0.2rem;
     animation-name: pelota;
     animation-duration: 5s;
     animation-iteration-count: infinite;

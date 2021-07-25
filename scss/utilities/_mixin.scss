@@ -8,18 +8,18 @@
 
 @mixin titles-pages {
         color: grey;
-        margin-top: 5px;
+        margin-top: 2rem;
         font-family: 'Staatliches', cursive;
-        font-size: 70px;
+        font-size: 6rem;
         text-align: center;
         
 }
 
 @mixin main-title {
     color: white;
-    margin-top: 5px;   
+    margin-top: 1.5rem;   
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-align: center;
     
 }
@@ -30,7 +30,7 @@
     margin: $margin;
     text-transform: uppercase;   
     font-family:sans-serif;
-    font-size: map-get($fonts, forms);  
+    font-size: 1.5rem;  
     text-align: left;
     
 }
@@ -40,7 +40,7 @@
     color: rgb(80, 78, 78);
     margin: $margin;
     font-family:sans-serif;
-    font-size: map-get($fonts, navbar);   
+    font-size: 1rem;   
     }
 
 @mixin circles {
@@ -52,16 +52,16 @@
 @mixin circle-purple {
     background-color: $violeta-logo;    
     border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    margin: 2px;
+    height: map-get($fonts, section);
+    width: map-get($fonts, section);
+    margin: 0.2rem;
     }
 
 @mixin circle-green {
     background-color: $verde-logo;
     border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    margin: 2px;
+    height: map-get($fonts, section);
+    width: map-get($fonts, section);
+    margin: 0.2rem;
     }
  

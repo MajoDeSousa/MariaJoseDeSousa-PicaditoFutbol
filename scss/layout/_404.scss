@@ -6,9 +6,9 @@ background-attachment: fixed;
 }
 
 .page-404-contain {
-    margin-top: 20px;
-    margin-left: 20px;    
+    margin-top: map-get($fonts, forms);
+    margin-left: map-get($fonts, forms); 
     color: white;
     font-family: "Staatliches", cursive;
-    font-size: 30px;
+    font-size: map-get($fonts, paragrah);
 }
