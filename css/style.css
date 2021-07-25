@@ -9,10 +9,6 @@
   .video-index {
     display: none;
   }
-
-  .p-home {
-    color: black;
-  }
 }
 .menu {
   background-color: #45d1a6;
@@ -58,7 +54,7 @@
   color: grey;
   margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 .fondo-no-header .home-container .div-container-text {
@@ -88,7 +84,7 @@
   color: grey;
   margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 
@@ -138,7 +134,7 @@
   color: grey;
   margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 
@@ -218,7 +214,7 @@
   color: grey;
   margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 
@@ -271,7 +267,7 @@
   color: grey;
   margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 
@@ -300,6 +296,7 @@
 .map {
   width: 50%;
   margin-bottom: 4rem;
+  margin-left: 4rem;
 }
 
 .titulo-seccion {
@@ -355,7 +352,7 @@
   color: grey;
   margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 .fondo-contacto .circles {
@@ -427,7 +424,7 @@ footer .box-footer a .fab {
   color: grey;
   margin-top: 2rem;
   font-family: "Staatliches", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 
